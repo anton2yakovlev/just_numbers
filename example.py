@@ -1,7 +1,9 @@
-from Numbers import Zero
+from Numbers import Five
 
-zero = Zero()
-print(zero == 0)
-print(zero <= 1)
-print(zero)
-print(abs(zero))
+five = Five()
+print(five)
+print(five != 5)
+print(five >= 2)
+print(abs(five))
+print(five ^ 2)
+print(hash(five))
