@@ -68,7 +68,7 @@ class Numbers:
     def __pos__(self):
         return +self.val
 
-    def __pow__(self, value, mod):
+    def __pow__(self, value, mod=None):
         return pow(self.val, value, mod)
 
     def __round__(self):
